@@ -12,4 +12,4 @@ module Closure
 
 end
 
-require 'closure/compiler'
+require File.join(File.dirname(__FILE__), 'closure', 'compiler')
